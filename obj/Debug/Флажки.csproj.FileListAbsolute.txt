@@ -1,0 +1,46 @@
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\bin\Debug\Флажки.exe.config
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\bin\Debug\Флажки.exe
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\bin\Debug\Флажки.pdb
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.csproj.AssemblyReference.cache
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.csproj.SuggestedBindingRedirects.cache
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\MainWindow.g.cs
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\App.g.cs
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки_MarkupCompile.cache
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки_MarkupCompile.lref
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\MainWindow.baml
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.g.resources
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.Properties.Resources.resources
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.csproj.GenerateResource.cache
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.csproj.CoreCompileInputs.cache
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.exe
+C:\Users\stud\Documents\225 Шлычков\визуальные\Флажки\obj\Debug\Флажки.pdb
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\bin\Debug\Флажки.exe.config
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\bin\Debug\Флажки.exe
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\bin\Debug\Флажки.pdb
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\MainWindow.g.cs
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\App.g.cs
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки_MarkupCompile.cache
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки_MarkupCompile.lref
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\MainWindow.baml
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки.g.resources
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки.Properties.Resources.resources
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки.csproj.GenerateResource.cache
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки.exe
+C:\Users\Дмитрий\OneDrive\Рабочий стол\Флажки\obj\Debug\Флажки.pdb
+E:\Флажки\bin\Debug\Флажки.exe.config
+E:\Флажки\bin\Debug\Флажки.exe
+E:\Флажки\bin\Debug\Флажки.pdb
+E:\Флажки\obj\Debug\Флажки.csproj.AssemblyReference.cache
+E:\Флажки\obj\Debug\MainWindow.g.cs
+E:\Флажки\obj\Debug\App.g.cs
+E:\Флажки\obj\Debug\Флажки_MarkupCompile.cache
+E:\Флажки\obj\Debug\Флажки_MarkupCompile.lref
+E:\Флажки\obj\Debug\MainWindow.baml
+E:\Флажки\obj\Debug\Флажки.g.resources
+E:\Флажки\obj\Debug\Флажки.Properties.Resources.resources
+E:\Флажки\obj\Debug\Флажки.csproj.GenerateResource.cache
+E:\Флажки\obj\Debug\Флажки.csproj.CoreCompileInputs.cache
+E:\Флажки\obj\Debug\Флажки.exe
+E:\Флажки\obj\Debug\Флажки.pdb

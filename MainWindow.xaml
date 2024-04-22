@@ -1,0 +1,87 @@
+﻿<Window x:Class="Флажки.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      
+
+
+    xmlns:local="clr-namespace:Флажки"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" Icon="/photo_2023-10-20_22-53-16.jpg" FontWeight="Bold" FontStyle="Italic">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/1684783898_mykaleidoscope-ru-p-tort-molochnaya-devochka-endi-shef-pintere-78.jpg" TileMode="None" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="170*"/>
+            <RowDefinition Height="153*"/>
+            <RowDefinition Height="24*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="452*"/>
+            <ColumnDefinition Width="169*"/>
+            <ColumnDefinition Width="179*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="Base" Margin="10,1,10,7" TextWrapping="Wrap" Grid.Row="1"/>
+        <GroupBox Header="Начинки" Grid.Row="2" Margin="10,10,64,26" FontWeight="Bold" FontStyle="Italic" BorderBrush="White" Foreground="Black">
+            <UniformGrid Rows="5" Background="#F2D6BCA1">
+                <RadioButton x:Name="Vish" Content="Вишнёвый" Margin="5,0,156,0" Height="15" Unchecked="Vish_Uncheck" Checked="Vish_Checked"/>
+                <RadioButton x:Name="Mal" Content="Малина" Margin="5,0,177,0" Height="15" Unchecked="Mal_unChecked" Checked="Mal_check"/>
+                <RadioButton x:Name="Mango" Margin="5,0,156,0" Height="15" Unchecked="Mango_Uncheck" Checked="Mango_Checked" Content="Манго-маракуя"/>
+                <RadioButton x:Name="Limon" Content="Лимоный курд с черникой" Margin="5,0,163,0" Height="15" Unchecked="Limon_Uncheck" Checked="Limon_Checked"/>
+                <RadioButton x:Name="Smor" Content="Чёрная смородина" Margin="5,0,163,0" Height="15" Unchecked="Smor_Uncheck" Checked="Smor_Checked"/>
+
+            </UniformGrid>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="Торты" Grid.Row="2" Margin="20,10,10,26" Grid.ColumnSpan="2" FontWeight="Bold" FontStyle="Italic" Foreground="Black">
+            <UniformGrid Rows="5" Background="#F2D6BCA1">
+                <RadioButton x:Name= "Bis" Content="Бисквитный" Margin="5,0,159,0" Height="15" Unchecked="Bis_Uncheck" Checked="Bis_Checked"/>
+                <RadioButton x:Name= "Nap" Content="Наполеон" Margin="5,0,159,0" Height="15" Unchecked="Nap_Uncheck" Checked="Nap_Checked"/>
+                <RadioButton x:Name= "Med" Content="Медовик" Margin="5,0,159,0" Height="15" Unchecked="Med_Uncheck" Checked="Med_Checked"/>
+                <RadioButton x:Name= "Mol" Content="Молочная девочка" Margin="5,0,60,0" Height="15" RenderTransformOrigin="0.5,0.5" Unchecked="Mol_Uncheck" Checked="Mol_Checked"/>
+                <RadioButton x:Name= "Kras" Content="Красный бархат" Margin="5,0,159,0" Height="15" Unchecked="Kras_Uncheck" Checked="Kras_Checked"/>
+
+            </UniformGrid>
+        </GroupBox>
+        <GroupBox Header="GroupBox" Grid.Row="3" Margin="10,10,64,10" Background="#F2D6BCA1" Foreground="Black">
+            <UniformGrid Rows="5" Columns="2">
+                <CheckBox x:Name="Toti" Content="Торт" Unchecked="Toti_Uncheck" Checked="Toti_Checked"/>
+                <ComboBox>
+                    <CheckBox Content="CheckBox"/>
+                    <CheckBox Content="CheckBox"/>
+                </ComboBox>
+                <CheckBox x:Name="Avtor" Content="Авторская упаковка" Unchecked="Avtor_Uncheck" Checked="Avtor_Checked"/>
+                <Label Content=""/>
+                <CheckBox x:Name="Kan" Content="Кандурин" Unchecked="Kan_Uncheck" Checked="Kan_Checked"/>
+                <Label Content=""/>
+                <CheckBox x:Name="Dop" Content="Доп начинка" Unchecked="Dop_Uncheck" Checked="Dop_Checked"/>
+                <ComboBox>
+                    <RadioButton x:Name="Cherry" Content="Вишнёвая" Unchecked="Cherry_Uncheck" Checked="Cherry_Checked" />
+                    <RadioButton x:Name="linka" Content="Малина" Unchecked="linka_Uncheck" Checked="linka_Checked"/>
+                    <RadioButton x:Name="marakya" Content="Манго-маракуя" Unchecked="marakya_Uncheck" Checked="marakya_Checked" />
+                    <RadioButton x:Name="chernika" Content="Лимон.курд с чер." Unchecked="chernika_Uncheck" Checked="chernika_Checked" />
+                    <RadioButton x:Name="smorodok" Content="Чёр.Смор" Unchecked="smorodok_Uncheck" Checked="smorodok_Checked" />
+                </ComboBox>
+                <CheckBox x:Name="Nad" Content="Надписи" Unchecked="Nad_Uncheck" Checked="Nad_Checked"/>
+                <Label Content=""/>
+
+            </UniformGrid>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="Курьер" Grid.Row="3" Margin="20,10,10,10" Grid.ColumnSpan="2" Background="#F2D6BCA1" Foreground="Black">
+            <UniformGrid Rows="2" Columns="2">
+                <Label Content="Сумма с доставкой" Height="30"/>
+                <CheckBox x:Name="Kyr" Content="Курьер" Margin="0,0,40,0" Height="14" Unchecked="Kyr_Uncheck" Checked="Kyr_Checked"/>
+
+            </UniformGrid>
+        </GroupBox>
+        <Button Grid.Column="1" Content="ВЫХОД" Margin="105,14,106,10" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="#F2D6BCA1" Click="Button_Click" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock TextWrapping="Wrap" Text="Итог" Margin="10,15,10,9" FontFamily="Segoe UI Black" FontSize="14" TextAlignment="Center" Background="#F2D6BCA1"/>
+       
+       
+
+    </Grid>
+</Window>
